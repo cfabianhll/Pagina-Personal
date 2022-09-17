@@ -5,14 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pagina web Personal</title>
-    <link rel="preload" href="css/styles.css" as="style">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preload" href="css/styles.css" as="style" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Open+Sans:wght@500&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="preload" href="css/styles.css" as="style" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header>
-      <h1 class="titulo">¿Quien soy?</h1>
+      <h1 class="titulo">
+        Carlos Hinojosa<span>Master en Marketing Digital</span>
+      </h1>
     </header>
-
+    <div class="bg-menu">
+      <nav class="main-nav contenedor">
+        <a href="#">Biografia</a>
+        <a href="#">Vision</a>
+        <a href="#">Formacion</a>
+        <a href="#">Pasatiempos</a>
+      </nav>
+    </div>
     <main>
       <h2>Biografia</h2>
       <section>
@@ -36,43 +48,42 @@
       <form>
         <fieldset>
           <legend>Formulario de Contacto</legend>
-          
+
           <div>
             <label>Nombre</label>
-            <input type="text" placeholder="Escribre tu nombre">
+            <input type="text" placeholder="Escribre tu nombre" />
           </div>
 
           <div>
             <label>Télefono</label>
-            <input type="tel" placeholder="Número telefónico">
+            <input type="tel" placeholder="Número telefónico" />
           </div>
 
           <div>
             <label>Email</label>
-            <input type="email" placeholder="Correo Electronico">
+            <input type="email" placeholder="Correo Electronico" />
           </div>
 
           <div>
-            <p>Tipo de consulta
+            <p>
+              Tipo de consulta
 
-            <label>E-commerce</label>
-            <input type="radio">
+              <label>E-commerce</label>
+              <input type="radio" />
 
-            <label>Marketing</label>
-            <input type="radio">
+              <label>Marketing</label>
+              <input type="radio" />
 
-            <label>Programación</label>
-            <input type="radio">
+              <label>Programación</label>
+              <input type="radio" />
             </p>
-
           </div>
 
           <div>
             <label>Mensaje</label>
             <textarea></textarea>
-            <input type="submit" value="Enviar">
+            <input type="submit" value="Enviar" />
           </div>
-
         </fieldset>
       </form>
     </section>
